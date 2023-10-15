@@ -29,6 +29,7 @@ console.log({juegoBorrado, juegos});
 
 
 let posicion = 1;
+console.log(juegos);
 
 // ELIMINA UN ELEMENTO DESDE LA POSICION INDICADA (Y CUANTOS DESDE ESA POSICION)
 // RETORNA LOS ELEMENTOS BORRADOS
