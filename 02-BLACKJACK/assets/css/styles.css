@@ -1,0 +1,25 @@
+html, body {
+  margin: 0 !important;
+  background-color: #2f4f30 !important;
+  color: whitesmoke !important;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  width: 150px;
+  position: relative;
+  left: 40px;
+  margin-left: -50px;
+}
+
+#jugador-cartas, #cpu-cartas {
+  min-height: 180px;
+  height: auto;
+}
