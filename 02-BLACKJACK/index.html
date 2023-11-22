@@ -11,10 +11,10 @@
     <header class="titulo">Blackjack</header>
 
     <div class="row mt-2 mx-0">
-      <div class="col text-center">
-        <button class="btn btn-danger">Nuevo juego</button>
-        <button class="btn btn-primary">Pedir carta</button>
-        <button class="btn btn-primary">Detener</button>
+      <div class="col text-center" id="divBotones">
+        <button id="btnNuevo" class="btn btn-success">Nuevo juego</button>
+        <button id="btnPedir" class="btn btn-primary" disabled="true">Pedir carta</button>
+        <button id="btnDetener" class="btn btn-danger" disabled="true">Detener</button>
       </div>
     </div>
 
@@ -22,7 +22,7 @@
       <div class="col">
         <h1 class="my-4">Jugador 1 - <small>0 </small></h1>
         <div id="jugador-cartas" class="d-flex flex-wrap">
-          <img class="carta" src="assets/cartas/10C.png" alt="">
+          <!-- <img class="carta" src="assets/cartas/10C.png" alt=""> -->
           <!-- <img class="carta" src="assets/cartas/10C.png" alt="">
           <img class="carta" src="assets/cartas/10C.png" alt="">
           <img class="carta" src="assets/cartas/10C.png" alt="">
@@ -39,7 +39,7 @@
       <div class="col">
         <h1 class="my-4">CPU - <small>0 </small></h1>
         <div id="cpu-cartas" class="d-flex flex-wrap">
-          <img class="carta" src="assets/cartas/10H.png" alt="">
+          <!-- <img class="carta" src="assets/cartas/10H.png" alt=""> -->
           <!-- <img class="carta" src="assets/cartas/10H.png" alt="">
           <img class="carta" src="assets/cartas/10H.png" alt="">
           <img class="carta" src="assets/cartas/10H.png" alt="">
