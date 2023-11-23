@@ -2,6 +2,8 @@ html, body {
   margin: 0 !important;
   background-color: #2f4f30 !important;
   color: whitesmoke !important;
+  min-height: 100vh;
+  padding-bottom: 50px;
 }
 
 .titulo {
@@ -22,4 +24,12 @@ html, body {
 #jugador-cartas, #cpu-cartas {
   min-height: 180px;
   height: auto;
+}
+
+#divBotones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
