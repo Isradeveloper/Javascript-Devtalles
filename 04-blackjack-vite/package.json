@@ -1,0 +1,19 @@
+{
+  "name": "blackjack-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@sweetalert2/themes": "^5.0.15",
+    "sweetalert2": "^11.10.1",
+    "underscore": "^1.13.6"
+  }
+}

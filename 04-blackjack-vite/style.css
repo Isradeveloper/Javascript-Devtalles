@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'quicksand';
+  font-weight: 500;
+  src:  url('/assets/fonts/quicksand/quicksand-variablefont_wght-webfont.woff2') format('woff2'),
+        url('/assets/fonts/quicksand/quicksand-variablefont_wght-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'quicksand';
+  font-weight: 700;
+  src: url('/assets/fonts/quicksand/Quicksand-Bold.woff') format('woff');
+}
+
+html, body {
+  margin: 0 !important;
+  background-color: #2f4f30 !important;
+  color: whitesmoke !important;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  width: 150px;
+  position: relative;
+  left: 40px;
+  margin-left: -50px;
+}
+
+#jugador-cartas, #cpu-cartas {
+  min-height: 180px;
+  height: auto;
+}
+
+#divBotones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  background-color: rgb(200, 255, 0);
+  color: black;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  font-family: quicksand, sans-serif;
+  font-weight: 700;
+}
